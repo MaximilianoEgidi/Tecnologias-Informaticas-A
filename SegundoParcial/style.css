@@ -1,0 +1,23 @@
+.container {
+  color: white;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly
+}
+
+.container > .item {
+  background-color: green;
+}
+
+.container > .item:not(:nth-child(4)) {
+  background-color: red;
+}
+
+.container > .item:hover {
+  background-color: orange;
+}
+
+.container > .item:active {
+  background-color: violet;
+}

@@ -1,0 +1,11 @@
+.contenedor form h1 {
+    color: red;
+    text-align: center;
+}
+
+.contenedor .datos {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+}

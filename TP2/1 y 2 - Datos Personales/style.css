@@ -1,0 +1,64 @@
+*{
+    background-color: gray;
+}
+h1 { 
+    color: rgb(0, 0, 165);
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(165, 0, 0);
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:hover{
+    color: green;
+}
+
+.DatosPersonales{
+    margin: auto;
+    padding-left: 25%;
+    width: 50%;
+    height: 250px;
+    transition: .2s;
+}
+
+.DatosPersonales:hover{
+    transform: scale(1.1);
+}
+
+.lista{
+    margin: auto;
+    width: 335px;
+    border: 3px solid black;
+    text-align: center;
+    list-style-type: square;
+}
+
+.lista ul li a {
+    color: red;
+    text-decoration: none;
+  }
+
+.botones{
+    text-align: center;
+}
+
+h3, button{
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    color: magenta;
+    border-color: magenta;
+    background-color: white;
+}
+
+h3:hover, button:hover{
+    color: blue;
+    border-color: blue;
+}

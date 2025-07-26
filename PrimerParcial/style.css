@@ -1,0 +1,58 @@
+.tituloPrincipal{
+    text-align: center;
+    color:maroon;
+}
+.caja{
+    background-color: blue;
+    height: 150px;
+}
+.caja ul li{
+    color: darkorange;
+    padding-top: 35px;
+}
+
+.caja ul li a{
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-decoration-color: darkorange;
+}
+
+.tituloSecundario{
+    text-align: center;
+    color: red;
+}
+
+.subtitulo{
+    color: yellow;
+}
+
+p{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.tituloTabla{
+    text-align: center;
+    color: darkblue;
+}
+.tabla{
+    width: 160px;
+}
+.tabla, thead th, tbody tr td{
+    border-collapse: collapse;
+    border: 3px solid blue;
+    margin: auto;
+}
+.tabla tbody tr td img{
+    width: 40px ;
+}
+
+.volver{
+    text-align: center;
+}
+.volver a{
+    color: red;
+    text-decoration-color: green;
+}

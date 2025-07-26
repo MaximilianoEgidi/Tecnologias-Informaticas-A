@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+
+form .formularios {
+    width: 600px;
+    margin: 40px auto;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+form .formularios input,button{
+    margin-top: 20px;
+    width: 100%;
+}
+
+form .formularios label{
+    width: 70%;
+}
+
+form .formularios .checkbox{
+    display: flex;
+    margin: 20px auto;
+}

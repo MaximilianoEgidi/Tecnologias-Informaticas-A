@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor .flexbox{
+    width: 80vh;
+    padding: 30px;
+    border: 4px solid blue;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px auto;
+    justify-content: space-evenly;
+}
+.contenedor .flexbox .caja{
+    padding: 3px;
+    background-color: red;
+    width: 30%;
+    border: 4px solid black;
+}
+
+.contenedor .contenido {
+    width: 80vh;
+    margin: auto;
+    padding: 30px;
+    border: 4px solid black;
+}

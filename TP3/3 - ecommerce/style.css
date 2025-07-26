@@ -1,0 +1,66 @@
+*{
+    background-color: white;
+    background-image: url(Imagenes/background.png);
+    background-size: cover;
+}
+
+.titulo{
+    text-align: center;
+    background: none;
+}
+.articulos{
+    margin: auto;
+    width: 600px;
+    height: 110px;
+    border: 3px solid black;
+    padding: 40px;
+}
+
+.links{ 
+    color: white;
+    text-decoration: none;
+    border: 2px solid black ;
+    padding: 70px;
+    line-height: 110px;
+    margin-left: 42px;
+    color: black;
+    }
+
+.banana{
+    background-image: url(Imagenes/Banana.png);
+    background-size: cover ;
+}
+
+.manzana{
+    background-image: url(Imagenes/Manzana.png);
+    background-size: cover ;
+}
+
+.tomate{
+    background-image: url(Imagenes/Tomate.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.imagen-articulo{
+    display: absolute;
+    width: 350px;
+    height: 250px;
+    margin-left: 405px;
+    margin-top: 40px;
+}
+
+.descripcion{
+    
+    text-align: justify;
+}
+
+.volver{
+    color: white;
+    text-decoration: none;
+    border: 2px solid black ;
+    padding: 30px;
+    line-height: 110px;
+    margin-left: 42px;
+    color: black;
+}

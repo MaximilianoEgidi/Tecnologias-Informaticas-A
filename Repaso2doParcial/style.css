@@ -1,0 +1,58 @@
+.contenedor {
+display: flex;
+}
+
+.contenedor .caja {
+    padding: 40px;
+    margin: 20px;
+    background-color: Red;
+}
+
+.contenedor .caja .subcaja {
+    padding: 40px;
+    margin: 20px;
+    background-color: blue;
+}
+
+.cabecera {
+    background-color: green;
+    width: 60vw;
+    height: 30vh;
+
+}
+
+
+.replicartablapadrehijo{
+    margin-top: 200px;
+}
+
+.replicartablapadrehijo table {
+    width: 480px;
+    margin: auto;
+  }
+.replicartablapadrehijo:nth-child()
+  .titulo {
+    color: white;
+    background-color: darkblue;
+  }
+
+  .replicartabla table {
+    width: 480px;
+    margin: auto;
+  }
+  
+  .titulo {
+    color: white;
+    background-color: darkblue;
+  }
+  
+  .filaazul {
+    background-color: lightblue;
+    opacity: 60%;
+  }
+  
+  .filagris {
+    background-color: lightgray;
+    opacity: 60%;
+  }
+  

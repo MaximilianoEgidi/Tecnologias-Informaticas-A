@@ -1,0 +1,15 @@
+form .contenedor{
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+form .contenedor .formulario{
+    padding: 40px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+form .contenedor .formulario input, label{
+    width: 60%;
+}

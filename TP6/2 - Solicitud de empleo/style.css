@@ -1,0 +1,21 @@
+.contenedor .formularios form .inputs{
+    width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.contenedor .formularios form .inputs h1{
+    text-align: center;
+}
+
+.contenedor .formularios form .inputs input {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.contenedor .formularios form .inputs button{
+    margin-top: 20px;
+    width: 100%;
+}

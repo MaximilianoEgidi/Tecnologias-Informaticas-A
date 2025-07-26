@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    margin-top: 10px;
+    width: 800px;
+  }
+  
+  header,
+  hgroup,
+  .cuerpo,
+  .cuerpo .contenido,
+  .cuerpo .contenido article,
+  footer,
+  aside {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  aside {
+    text-align: center;
+    width: 30vh;
+  }
+
+  aside img{
+    width: 100%;
+  }
+  .cuerpo {
+    display: flex;
+  }
+  .contenido {
+    width: 40vh;
+  }
+  
+  .contenido section article{
+    height: 150px;
+  }

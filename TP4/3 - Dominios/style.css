@@ -1,0 +1,30 @@
+section {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 450px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+h1 {
+  text-align: center;
+}
+.listas {
+  margin: auto;
+  margin-top: 10px;
+  width: 400px;
+  border: 1px solid black;
+}
+.listas ul h3 {
+  text-align: center;
+}
+.listas ul li {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  width: 120px;
+}
+
+.listas ul li a {
+  text-decoration: none;
+  color: blue;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Inscripcion</title>
+  </head>
+  <body>
+    <h1>Inscripcion</h1>
+    <form action="https://formtester.goodbytes.be/post.php" method="post">
+    <div class="contenedor">
+        <div class="formulario">
+            <label for="">Nombre:</label>
+            <input name="nombre" type="text" />
+        </div>
+        <div class="formulario">
+            <label for="">Apellido:</label>
+            <input name="apellido" type="text" />
+        </div>
+        <div class="formulario">
+            <label for="">DNI:</label>
+            <input name="DNI" type="number" />
+        </div>
+        <div class="formulario">
+            <label for="">Sexo:</label>
+            <div class="checkbox">
+            <label for="">Masculino</label>
+            <input type="radio" name="sexo" value="Masculino" id="" />
+            </div>
+            <div class="checkbox">
+            <label for="">Femenino</label>
+            <input type="radio" name="sexo" value="Femenino" id="" />
+            </div>
+            <div class="checkbox">
+            <label for="">Otro</label>
+            <input type="radio" name="sexo" value="Otro" id="" />
+            </div>
+        </div>
+        <div class="formulario">
+          <label for="">Fecha de nacimiento: </label>
+          <input name="nacimiento" type="date" />
+        </div>
+
+        <div class="formulario">
+            <button type="submit">Enviar</button>
+        </div>
+    </div> 
+    </form>
+  </body>
+</html>

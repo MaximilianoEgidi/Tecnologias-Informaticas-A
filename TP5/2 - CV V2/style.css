@@ -1,0 +1,15 @@
+.cuerpo .titulo{
+  background-color: blue;
+  border-radius: 20px;
+}
+.cuerpo .titulo h1{
+  text-align: center;
+}
+
+.cuerpo .titulo h2{
+  display: inline-block;
+}
+.cuerpo .contenido h2 span{
+  font-size: larger;
+  font-weight:lighter;
+}
